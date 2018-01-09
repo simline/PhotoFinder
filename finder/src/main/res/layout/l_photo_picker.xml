@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_gallery_pick_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/vList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="54dp"
+        android:background="@color/bg"
+        android:clipChildren="false"
+        android:clipToPadding="false" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:background="#f73B3E4D">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawablePadding="6dp"
+            android:drawableStart="@drawable/__prev"
+            android:gravity="center"
+            android:minWidth="54dp"
+            android:paddingStart="12dp"
+            android:text=" (8/8)"
+            android:textColor="@color/w"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/vFolder"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:drawableEnd="@drawable/__down"
+            android:gravity="center"
+            android:minWidth="120dp"
+            android:text="@string/gallery_all_folder"
+            android:textColor="@color/w"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:padding="3dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/__camera"
+            android:tint="@color/w_bmost" />
+    </RelativeLayout>
+
+</RelativeLayout>

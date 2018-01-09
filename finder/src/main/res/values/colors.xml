@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- base -->
+    <color name="t"     > #0000     </color>
+    <color name="r"     > #f30      </color>
+    <color name="g"     > #3d6      </color>
+    <color name="l"     > #4990E2   </color>
+    <color name="bg"    > #F7F7F7   </color>
+    <color name="gray"  > #DDD      </color>
+    <color name="dark"  > #5C6166   </color>
+
+
+    <!-- white -->
+    <color name="wbit"  > #1FFF     </color>
+    <color name="wless" > #2FFF     </color>
+    <color name="wmore" > #4FFF     </color>
+    <color name="wmost" > #CFFF     </color>
+    <color name="w"     > #FFF      </color>
+
+
+    <!-- black -->
+    <color name="bbit"  > #1000     </color>
+    <color name="bless" > #2000     </color>
+    <color name="bmore" > #4000     </color>
+    <color name="bmost" > #C000     </color>
+    <color name="b"     > #000      </color>
+
+
+    <color name="theme" > #3b3e4d   </color>
+
+</resources>

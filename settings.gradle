@@ -1,0 +1,2 @@
+include ':sample', ':finder'
+project(':finder').projectDir = new File('finder')

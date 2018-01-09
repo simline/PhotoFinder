@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:background="@drawable/_w_bbit">
+
+    <ImageView
+        android:id="@+id/ivFolderImage"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginEnd="18dp"
+        android:background="@color/bmore"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/tvFolderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/ivFolderImage"
+        android:hint="@string/gallery_folder_name"
+        android:textColor="@color/b"
+        android:textColorHint="@color/b"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvPhotoNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFolderName"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@+id/ivFolderImage"
+        android:hint="@string/gallery_photo_num"
+        android:textColor="@color/dark"
+        android:textColorHint="@color/dark"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/ivIndicator"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="@null"
+        android:src="@mipmap/item_checked" />
+
+</RelativeLayout>
